@@ -28,6 +28,25 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
+  try{
+    let oneCategory = await Category.findOne({
+      where: {
+        id: req.params.id
+      },
+      include: {
+        model: Product,
+        attributes: ['id', 'product_name', 'price', 'stock']
+      }
+    })
+    if(!oneCategory) {
+      res.status(404).json({message: 'No categories found'});
+      return;
+    }
+    res.json(oneCategory);
+  }
+  catch (err){
+    res.status(500).json(err)
+  }
   
     
 });
