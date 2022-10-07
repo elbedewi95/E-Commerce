@@ -67,8 +67,24 @@ router.post('/', async (req, res) => {
 
 });
 
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
   // update a category by its `id` value
+  try{
+  let updatedCategory= await Category.update(req.body, {
+    where: {
+      id: req.params.id
+    }
+  })
+  if(!updatedCategory) {
+    res.status(404).json({message: 'No categories found'});
+    return;
+  }
+  res.json(updatedCategory);
+}
+catch (err){
+  res.status(500).json(err)
+}
+
 });
 
 router.delete('/:id', (req, res) => {
