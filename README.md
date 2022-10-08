@@ -36,7 +36,7 @@ Table Of Contents:
 
 
 4. <p id="questions">Questions: </p>
-    E-mail: <a>vickybedewi-95@hotmail.com</a> <br>
+    E-mail: <a href="mailto:vickybedewi-95@hotmail.com">vickybedewi-95@hotmail.com</a> <br>
     GitHub: <a href="https://github.com/elbedewi95"> github.com/elbedewi95 </a>
 
 
