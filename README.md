@@ -14,7 +14,7 @@ Table Of Contents:
 4. <a href= "#questions">Questions</a>
 5. <a href= "#video">Demo Video</a>
 
-<br> <br>
+
 
 1.  <p id="tech">Technologies Used:</p>
 
@@ -36,8 +36,8 @@ Table Of Contents:
 
 
 4. <p id="questions">Questions: </p>
-    E-mail: vickybedewi-95@hotmail.com
-    GitHub: github.com/elbedewi95
+    E-mail: <a>vickybedewi-95@hotmail.com</a> <br>
+    GitHub: <a href="https://github.com/elbedewi95"> github.com/elbedewi95 </a>
 
 
 5. <p id= "video"> Demo Video:</p>
