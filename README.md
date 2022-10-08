@@ -13,8 +13,7 @@ Table Of Contents:
 3. <a href= "#contr">Contributing</a>
 4. <a href= "#questions">Questions</a>
 5. <a href= "#video">Demo Video</a>
-
-
+<br>
 
 1.  <p id="tech">Technologies Used:</p>
 
